@@ -12,7 +12,7 @@ import TimeoutExample from './Timeout'
 
 function App() {
     return(
-        <TimeoutExample/>
+        <Counter/>
     )
 }
 
