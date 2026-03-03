@@ -1,16 +1,44 @@
-# React + Vite
+# React Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic counter application built with React and Tailwind CSS, demonstrating state management, side effects, conditional rendering, and interactive event handling.
 
-Currently, two official plugins are available:
+# Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a functional React component that manages a counter with multiple interactive behaviours.
 
-## React Compiler
+It showcases how to use:
+	•	useState for managing component state
+	•	useEffect for lifecycle side effects
+	•	Conditional styling with Tailwind CSS
+	•	Event-based logic using keyboard modifiers
+	•	Button disabling logic based on state
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Tech Stack
+	•	React
+	•	JavaScript (ES6+)
+	•	Tailwind CSS
 
-## Expanding the ESLint configuration
+# Features
+	•	Increment counter by 1
+	•	Hold Shift + Click to increment by 10
+	•	Decrement counter
+	•	Reset counter to 0
+	•	Disable decrement button when count is 0
+	•	Dynamic background colour change based on count
+	•	Console logging on component mount and counter updates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Key Concepts Demonstrated
+	•	React Hooks (useState, useEffect)
+	•	Dependency arrays in useEffect
+	•	Conditional class rendering
+	•	Controlled UI state
+	•	Event object usage (e.shiftKey)
+	•	Basic UI state logic
+
+# Learning Focus
+
+This project was built to strengthen understanding of:
+	•	React component lifecycle
+	•	State-driven UI updates
+	•	Conditional logic inside event handlers
+	•	Clean and readable component structure
